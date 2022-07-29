@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+}
+img{
+    max-width: 100px;
+    margin-bottom: 16px;
+}
+body{
+    background-color: white;
+    font-family: helvetica;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+
+#soma1, #soma2{
+    padding: 10px;
+    width: 57%;
+    border: none;
+    border-radius: 5px;
+    margin-top: 7px;
+    background-color: lightgrey;
+}
+
+button{
+    color:white;
+    background-color: purple;
+    border: none;
+    border-radius: 5px;
+    padding:10px;
+    width: 42%;
+    font-size: 18px;
+    margin-top: 16px;
+    font-weight: bold;
+}
+
+button:hover{
+    color:black;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    padding:10px;
+    width: 42%;
+    font-size: 18px;
+    margin-top: 16px;
+    font-weight: bold;
+}
+
+#result{
+    margin-top:10px;
+    color: grey;
+}
+#somatoria{
+    font-size: 24px;
+    font-weight: bolder;
+    color: black;
+    padding: 20px;
+}
+.container{
+    margin-inline: auto;
+    margin-top: 20%;
+    margin-bottom: auto;
+}
