@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    height: 100vh;
+    background-image: url("../public/sobreMim/Component 2.svg");
+    background-color: #000000;
+    color: #F6F6F6;
+    /* instalando a fonte do Google no body todo */
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.navigation_menu {
+    display: flex;
+    align-items: center;
+    background-color: #000000;
+    height: 135px;
+}
+
+.navigation_menu-items {
+    display: flex;
+    margin-inline: 29%;
+    gap: 40px;
+    
+    text-decoration: none;
+    width: 50vh;
+}
+
+.navigation_menu-items-item {
+    color: #22D4FD;
+    transition: 200ms;
+    font-size: 22px;
+}
+
+.navigation_menu-items-item:hover {
+    scale: 1.2;
+    font-weight: bold;
+}
+
+
+h1 {
+    color: #22D4FD;
+    margin-inline: auto;
+}
+
+main {
+    width: 90vh;
+    max-width: 900px;
+    margin-inline: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+main p{
+    font-size: 22px;
+    margin-bottom: 30px;
+    text-align: justify;
+}
+
+
+main a {
+    color: black;
+    background-color: #22D4FD;
+    border-radius: 16px;
+    
+    width: 380px;
+    height: 90px;
+    padding: 29px;
+    margin-left: 55%;
+    margin-top: 35px;
+    text-align: center;
+    justify-content: center;
+    
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.sobremim-main-imageandtext{
+    display: flex;
+    justify-content: center;
+    margin-top: 90px;
+}
+
+.text-right{
+    margin-left: 51px;
+    justify-content: center;
+}
+
+footer {
+    margin-top: 100px;
+    margin-inline: auto;
+    text-align: center;
+}
+
+footer p {
+    margin-bottom: 10px;
+}
