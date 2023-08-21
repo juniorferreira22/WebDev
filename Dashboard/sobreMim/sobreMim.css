@@ -1,11 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500&display=swap');
 
 
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
+}
+
+:root {
+    --cor-primaria: #000000;
+    --cor-secundaria: #F6F6F6;
+    --cor-terciaria: #22D4FD;
+    --cor-hover: #90ebff;
+
+    --fonte-primaria: 'Ubuntu', sans-serif;
 }
 
 html {
@@ -15,16 +25,16 @@ html {
 body {
     height: 100vh;
     background-image: url("../public/sobreMim/Component 2.svg");
-    background-color: #000000;
-    color: #F6F6F6;
+    background-color: var(--cor-primaria);
+    color: var(--cor-secundaria);
     /* instalando a fonte do Google no body todo */
-    font-family: 'Ubuntu', sans-serif;
+    font-family: var(--fonte-primaria);
 }
 
 .navigation_menu {
     display: flex;
     align-items: center;
-    background-color: #000000;
+    background-color: var(--cor-primaria);
     height: 135px;
 }
 
@@ -38,7 +48,7 @@ body {
 }
 
 .navigation_menu-items-item {
-    color: #22D4FD;
+    color: var(--cor-terciaria);
     transition: 200ms;
     font-size: 22px;
 }
@@ -50,7 +60,7 @@ body {
 
 
 h1 {
-    color: #22D4FD;
+    color: var(--cor-terciaria);
     margin-inline: auto;
 }
 
@@ -63,15 +73,15 @@ main {
 }
 
 main p{
-    font-size: 22px;
+    font-size: 20px;
     margin-bottom: 30px;
     text-align: justify;
 }
 
 
 main a {
-    color: black;
-    background-color: #22D4FD;
+    color: var(--cor-primaria);
+    background-color: var(--cor-terciaria);
     border-radius: 16px;
     
     width: 380px;
@@ -105,4 +115,12 @@ footer {
 
 footer p {
     margin-bottom: 10px;
+}
+
+b{
+    font-size: 28px;
+}
+
+.flex-left{
+    margin-bottom: 40px;
 }
