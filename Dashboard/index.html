@@ -6,14 +6,13 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css">
-    <script src="index.js"></script>
     <title>Portfolio</title>
 </head>
 
-<body>
+<body id="start">
     <header class="navigation_menu">
         <!-- cabeçalho e menus -->
-        <nav class="navigation_menu-items">
+        <nav id="navigation_menu" class="navigation_menu-items">
             <a class="navigation_menu-items-item" href="">Home</a>
             <a class="navigation_menu-items-item" href="./sobreMim/sobreMim.html">Sobre Junior</a>
         </nav>
@@ -30,17 +29,19 @@
             </h1>
 
             <p class="container-leftside-paragraph">
+                <!-- paragrafo da esquerda -->
                 Olá! Tudo bem? Sou o Junior Ferreira, designer gráfico, UI/UX designer e dev Front-end com especialidade
                 em Adobe PhotoShop, Figma, React JS, HTML e CSS.
             </p>
 
             <p class="container-leftside-paragraph">
+                <!-- segundo paragrafo da esquerda -->
                 Ajudo pequenos negócios e designers a colocarem as suas melhores ideias em prática. Conversaremos por
                 onde?
             </p>
 
             <div class="container-leftside-buttons">
-
+                <!-- links da esquerda -->
                 <a href="https://instagram.com/jrferreira_001" target="_blank"
                     class="container-leftside-instagrambutton">Instagram</a>
 
@@ -51,14 +52,15 @@
         </section>
 
         <section class="container-rightside">
-            <!-- seção da direita -->
-            <img class="container-rightside-image" src="./public/imagem.png" alt="Junior Ferreira">
+            <!-- seção da direita com imagem de Junior-->
+            <img class="container-rightside-image" src="./assets/public/imagem.svg" alt="Junior Ferreira">
         </section>
     </main>
 
     <div class="go-down">
+        <!-- seta para ir para a proxima seção -->
         <a href="#separator">
-            <img class="down-arrow" src="./public/Expand Arrow.svg" alt="ir para próxima seção">
+            <img class="down-arrow" src="./assets/public/Expand Arrow.svg" alt="ir para próxima seção">
         </a>
     </div>
 
@@ -67,17 +69,21 @@
     </div>
 
     <section class="my-designs-images">
-        <section class="my-designs-carousel">
-            <img class="my-designs-carousel-img" src="./public/carousel/backstreet.svg" alt="backstreet skate shop">
-            <img class="my-designs-carousel-img" src="./public/carousel/elizaribeiro.svg" alt="eliza ribeiro arquitetura">
-            <img class="my-designs-carousel-img" src="./public/carousel/gorrilacafes.svg" alt="gorilla cafes">
-            <img class="my-designs-carousel-img" src="./public/carousel/instylerace.svg" alt="in style race">
-            <img class="my-designs-carousel-img" src="./public/carousel/camisa.png" alt="camisa instylerace">
-            <img class="my-designs-carousel-img" src="./public/carousel/caneca.png" alt="caneca instylerace">
-        </section>
+        <!-- seção nova para colocar um carrossel -->
+        <div class="my-designs-carousel">
+            <!-- container do carrossel e imagens dentro -->
+            <img class="my-designs-carousel-img" src="./assets/public/carousel/backstreet.svg" alt="backstreet skate shop">
+            <img class="my-designs-carousel-img" src="./assets/public/carousel/elizaribeiro.svg"
+                alt="eliza ribeiro arquitetura">
+            <img class="my-designs-carousel-img" src="./assets/public/carousel/gorrilacafes.svg" alt="gorilla cafes">
+            <img class="my-designs-carousel-img" src="./assets/public/carousel/instylerace.svg" alt="in style race">
+            <img class="my-designs-carousel-img" src="./assets/public/carousel/camisa.png" alt="camisa instylerace">
+            <img class="my-designs-carousel-img" src="./assets/public/carousel/caneca.png" alt="caneca instylerace">
+        </div>
     </section>
 
     <section class="my-designs-description">
+        <!-- nova seção com a descrição dos designs acima -->
         <p class="my-designs-paragraph">
             Como você pode ver, o meu foco sempre é em artes minimalistas e a entrega de mensagens subliminares por trás
             de cada uma.
@@ -94,40 +100,61 @@
     </section>
 
     <div class="go-down">
+        <!-- seta numero 2 para ir para a proxima seção -->
         <a href="#webdev">
-            <img class="down-arrow-2" src="./public/Expand Arrow.svg" alt="go to next section">
+            <img class="down-arrow-2" src="./assets/public/Expand Arrow.svg" alt="go to next section">
         </a>
     </div>
 
     <section class="webdev" id="webdev">
+        <!-- nova seção webdev -->
         <h1 class="webdev-title">Web-Dev</h1>
+
         <section class="webdev-dashboard-content">
+            <!-- conteudo da seção -->
             <div class="webdev-dashboard-languages">
+                <!-- lado da esquerda - imagens e titulos -->
                 <p class="webdev-dashboard-languages-title">Linguagens:</p>
+
                 <div class="languages">
-                    <img class="webdev-language" src="./public/webdev/Html 5.svg" alt="HTML5">
-                    <img class="webdev-language" src="./public/webdev/CSS3.svg" alt="CSS3">
-                    <img class="webdev-language" src="./public/webdev/JavaScript.svg" alt="JavaScript">
-                    <img class="webdev-language" src="./public/webdev/React.svg" alt="ReactJS">
-                    <img class="webdev-language" src="./public/webdev/Python.svg" alt="Python">
+                    <!-- linguagens em row -->
+                    <img class="webdev-language" src="./assets/public/webdev/Html 5.svg" alt="HTML5">
+                    <img class="webdev-language" src="./assets/public/webdev/CSS3.svg" alt="CSS3">
+                    <img class="webdev-language" src="./assets/public/webdev/JavaScript.svg" alt="JavaScript">
+                    <img class="webdev-language" src="./assets/public/webdev/React.svg" alt="ReactJS">
+                    <img class="webdev-language" src="./assets/public/webdev/Python.svg" alt="Python">
                 </div>
             </div>
 
-            <div class="webdev-dashboard-divider"></div>
+            <div class="webdev-dashboard-divider">
+                <!-- divisor do meio, em branco somente preenchido o conteudo -->
+            </div>
+
             <div class="webdev-dashboard-workedin">
+                <!-- parte da direita -->
                 <p class="webdev-dashboard-workedin-title">Trabalhei em:</p>
                 <div class="projects-resume">
+                    <!-- numero (sera usado posteriormente no js) -->
                     <span class="project-quantity" id="project-quantity" onfocus="CountUpProjects()">000012</span>
                     <span class="projects-text">Projetos</span>
                 </div>
             </div>
         </section>
 
-        <p class="webdev-description">O meu foco no Web-Development é nunca deixar de aprender e sempre buscar formas de trabalhar com qualidade e de maneira ágil. Então pode me considerar alguém autodidata, e que serei sempre um eterno aprendiz.</p>
+        <p class="webdev-description">O meu foco no Web-Development é nunca deixar de aprender e sempre buscar formas de
+            trabalhar com qualidade e de maneira ágil. Então pode me considerar alguém autodidata, e que serei sempre um
+            eterno aprendiz.</p>
     </section>
 
-    
+    <div class="go-up">
+        <a href="#start">
+            <!-- seta para ir para cima -->
+            <img class="down-arrow-2" src="./assets/public/Expand Arrow.svg" alt="go up">
+        </a>
+    </div>
+
     <footer>
+        <!-- footer da pagina -->
         <p>Copyright © Junior Ferreira @2023 - Todos os direitos reservados.</p>
         <p class="footer_contact"><strong>Contato:</strong> jr.ferreira0018@gmail.com</p>
     </footer>
